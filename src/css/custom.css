@@ -1,0 +1,38 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0088cc;
+  --ifm-color-primary-dark: #0088CC;
+  --ifm-color-primary-darker: #0074ad;
+  --ifm-color-primary-darkest: #005f8f;
+  --ifm-color-primary-light: #0088CC;
+  --ifm-color-primary-lighter: #009ceb;
+  --ifm-color-primary-lightest: #0aadff;
+  --ifm-color-success-dark: #47C58A;
+  --ifm-color-info-dark: #0088cc;
+  --ifm-color-success-contrast-background: rgba(50, 213, 131, 0.1);
+  --ifm-color-info-contrast-background: rgba(0, 153, 229, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #019BE9;
+  --ifm-color-primary-dark: #0690d4;
+  --ifm-color-primary-darker: #0688c9;
+  --ifm-color-primary-darkest: #0570a5;
+  --ifm-color-primary-light: #13acf8;
+  --ifm-color-primary-lighter: #1fb0f8;
+  --ifm-color-primary-lightest: #42bdf9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --button_light_primary: #01A4F5;
+  /* --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="rgb(96, 96, 105)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>'); */
+  --ifm-navbar-search-input-background-color: #2D2D32
+}
