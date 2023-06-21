@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[612],{2412:e=>{e.exports=JSON.parse('{"title":"Usage","slug":"/category/usage","permalink":"/tons-docs/category/usage","navigation":{"previous":{"title":"Installation","permalink":"/tons-docs/installation"},"next":{"title":"tons-interactive","permalink":"/tons-docs/usage/tons-interactive"}}}')}}]);
