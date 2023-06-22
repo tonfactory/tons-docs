@@ -58,9 +58,9 @@ const config = {
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
       algolia: {
-        appId: 'FZENOUO237',
-        apiKey: '648358f061c138ee65986052c12edd9b',
-        indexName: 'tons-docs'
+        appId: '1JDMEC35OK',
+        apiKey: 'bd7843d692480f02c8177210d6b4130e',
+        indexName: 'tons'
       },
       navbar: {
         title: 'tons docs',
