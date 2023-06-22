@@ -57,6 +57,11 @@ const config = {
     ({
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
+      algolia: {
+        appId: 'FZENOUO237',
+        apiKey: '648358f061c138ee65986052c12edd9b',
+        indexName: 'tons-docs'
+      },
       navbar: {
         title: 'tons docs',
         logo: {
@@ -121,14 +126,14 @@ const config = {
       },
     }),
 
-    plugins: [
-      [
-        require.resolve("@cmfcmf/docusaurus-search-local"),
-        {
-          indexBlog: false
-        },
-      ],
-    ],
+    // plugins: [
+    //   [
+    //     require.resolve("@cmfcmf/docusaurus-search-local"),
+    //     {
+    //       indexBlog: false
+    //     },
+    //   ],
+    // ],
 };
 
 module.exports = config;
