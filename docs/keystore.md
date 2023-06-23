@@ -1,8 +1,11 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Keystore
+
+
+## How it works?
 
 Keystore is encrypted by a user's password or a Yubikey. 
 There are several options to work with a password:
@@ -35,6 +38,8 @@ This command will:
 The option --pin-policy ONCE is required by the tons. 
 You can read about policies [here](https://docs.yubico.com/yesdk/users-manual/application-piv/pin-touch-policies.html).
 
+## tons-interactive
+
 List all keystores in a tons.workdir
 ```bash
 $ tons keystore list
@@ -53,6 +58,8 @@ Backup a keystore (password is used to export private keys)
 $ tons keystore backup myNewKeystore ./myNewKeystore.backup
 Password []: 
 ```
+
+## tons
 
 Restore a keystore (password is used for a new keystore)
 ```bash
