@@ -15,7 +15,7 @@ Wallet entity is a record in a keystore file that has all required information t
 
 
 <video controls width="100%" height="auto">
-  <source src="http://localhost:3000/tons-docs/vid/tons-interactive-wallet.mov" type="video/mp4" />
+  <source src="https://tonfactory.github.io/tons-docs/vid/tons-interactive-wallet.mov" type="video/mp4" />
 </video>
 
 
@@ -93,16 +93,4 @@ guitar border swap border actor history universe wrist width mask unveil again d
 Export wallet to .addr and .pk files (e.g. to use in toncli development tool)
 ```bash
 $ tons wallet to-addr-pk myMain ./destination/path/
-```
-
-Transfer coins from a wallet to a contact
-```bash
-$ tons wallet transfer myMain myFriend 10 \
-        --message "Happy Birthday!" \
-        --wait \
-        --bounceable n \
-        --pay-gas-separately y \
-        --ignore-errors n \
-        --destroy-if-zero n \
-        --transfer-all n
 ```

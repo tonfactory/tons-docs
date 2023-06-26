@@ -31,7 +31,7 @@ Public information are stored unencrypted (e.g. wallet address).
 
 
 <video controls width="100%" height="auto">
-  <source src="http://localhost:3000/tons-docs/vid/tons-interactive-keystores.mov" type="video/mp4" />
+  <source src="https://tonfactory.github.io/tons-docs/vid/tons-interactive-keystores.mov" type="video/mp4" />
 </video>
 
 
