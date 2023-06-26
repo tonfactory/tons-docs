@@ -4,27 +4,15 @@ sidebar_position: 2
 
 # Installation
 
-* [Non-developers](#non-developers)
-* [Developers](#developers)
-
-
 ## Non-developers
 
-As a non-developer, you should use **tons-intecractive** version.
+The simplest way to install **tons** is to go to the [releases page](https://github.com/tonfactory/tons-releases/releases) 
+and download the latest version. 
 
+Download an installer that suits your OS, install the application and double click the executable file.
 
-### Mac OS
-
-Start a terminal application and enter the following command.
-
+You will see the main menu
 ```bash
-$ sh -c "$(curl -sSfL https://raw.githubusercontent.com/tonfactory/temp_tons_install/master/install)"
-```
-
-To run **tons-interactive** enter 'tons-interactive' in the terminal
-
-```bash
-$ tons-interactive
 [?] Pick command: Keystores
  > Keystores
    Whitelist
@@ -35,11 +23,18 @@ $ tons-interactive
 
 ## Developers
 
-**tons** is a python package. Use pip (python package manager) to install it
+**tons** is a python package. All UIs are included in the same package. 
 
+Use pip (python package manager) to install it
 ```bash
 $ mkdir ~/my-ton-workdir/ && cd ~/my-ton-workdir/
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install tons
+$ tons-interactive
+[?] Pick command: Keystores
+ > Keystores
+   Whitelist
+   Config
+   Exit
 ```

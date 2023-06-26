@@ -3,6 +3,25 @@ sidebar_position: 7
 ---
 # Wallet
 
+Wallet entity is a record in a keystore file that has all required information to interact with a specific TON blockchain smart contract.  
+
+
+## tons-interactive
+
+1. Create new wallet (**0:00**) <br />
+2. Reveal wallet mnemonics (**0:27**) <br />
+3. Import wallet using mnemonics (**0:39**) <br /> 
+4. Keystore support same CRUD (create, read, update, delete) operations as whitelists (**1:07**)
+
+
+<video controls width="100%" height="auto">
+  <source src="http://localhost:3000/tons-docs/vid/tons-interactive-wallet.mov" type="video/mp4" />
+</video>
+
+
+
+## tons
+
 Wallets support same CRUD operations
 ```bash
 $ tons wallet create myMain \

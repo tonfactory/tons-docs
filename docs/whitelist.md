@@ -3,6 +3,34 @@ sidebar_position: 6
 ---
 # Whitelist
 
+*whitelist* - is a file that stores all user's contacts.
+User have to use it to transfer coins from their wallets to other addresses. 
+Whitelist feature eliminates risk of transfer user's assets to the wrong address.
+
+
+There are two types of whitelist: 
+- **Global whitelist** - contacts are stored in a global whitelist.json file and can be used from any keystore
+- **Local whitelist** - contacts are stored in a keystore file and can be used only in that keystore
+
+## tons-interactive
+
+1. Create new contact in global whitelist (**0:00**) <br />
+2. Get contact extra information (**0:17**) <br />
+3. Edit contact (**0:23**) <br /> 
+4. Delete contact (**0:37**)
+5. Move contact from global whitelist to local whitelist (**0:49**)
+6. Go to local whitelist and interact with it using the same whitelist menu (**1:14**)
+
+
+<video controls width="100%" height="auto">
+  <source src="http://localhost:3000/tons-docs/vid/tons-interactive-whitelist.mov" type="video/mp4" />
+</video>
+
+
+
+## tons
+
+
 List all contacts with verbose information (can be redirected to .md file)
 
 ```bash
@@ -17,17 +45,17 @@ $ tons whitelist list --verbose > contacts_info.md
 
 Add new contact
 ```bash
-$ tons whitelist add myFriend EQC96BhaxqhdK-pwvcBudu-WCtjBFMjPbAqoL7qMKc6rd2U2
+tons whitelist add myFriend EQC96BhaxqhdK-pwvcBudu-WCtjBFMjPbAqoL7qMKc6rd2U2
 ```
 
 Edit contact
 ```bash
-$ tons whitelist edit myFriend --name myBestFriend --address EQBP5aEPlmFNr4eS3DJw2ydC4X_hOumwZoqCcJgHVSQHjZWW
+tons whitelist edit myFriend --name myBestFriend --address EQBP5aEPlmFNr4eS3DJw2ydC4X_hOumwZoqCcJgHVSQHjZWW
 ```
 
 Delete contact
 ```bash
-$ tons whitelist delete myFriend
+tons whitelist delete myFriend
 ```
 
 Get address info of a contact

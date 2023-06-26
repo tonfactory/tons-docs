@@ -7,7 +7,38 @@ sidebar_position: 5
 
 ## How it works?
 
-Keystore is encrypted by a user's password or a Yubikey. 
+*keystore* - is a file encrypted by a user's secret.
+It is used to store private keys from user's wallets.
+
+
+There are different versions of keystore which have different workflow:
+- [Password](#password-type-keystore)
+
+## Password type keystore
+
+Password type keystores encrypt only sensitive part of your data (e.g. wallet secret key). 
+Public information are stored unencrypted (e.g. wallet address).
+
+
+
+### tons-interactive
+
+
+1. Create new keystore (**0:00**) <br />
+2. Open keystore (**0:13**) <br />
+3. Backup keystore (**0:18**) <br /> 
+4. Restore keystore (**0:44**)
+
+
+<video controls width="100%" height="auto">
+  <source src="http://localhost:3000/tons-docs/vid/tons-interactive-keystores.mov" type="video/mp4" />
+</video>
+
+
+
+### tons
+
+
 There are several options to work with a password:
 1. Runs a command and enter it through input
 ```bash
@@ -25,22 +56,8 @@ $ export TONS_KEYSTORE_PASSWORD=admin123
 $ tons keystore new
 ```
 
-To work with a Yubikey you must set it up using the following steps:
-1. turn on PIV interface on your yubikey (you may use [yubikey manager](https://www.yubico.com/support/download/yubikey-manager/))
-2. generate new key pair on the required slot. Consider using this command:
-```bash
-$ ykman piv keys generate 0x87 - -m ${YOUR_MANAGEMENT_KEY} -P ${YOUR_PIN} --pin-policy ONCE --touch-policy ALWAYS -a RSA2048
-```
-This command will:
-- use your yubikey secrets. If you haven't set them up, [see docs](https://docs.yubico.com/yesdk/users-manual/application-piv/pin-puk-mgmt-key.html).
-- generate RSA2048(required) keys in the 0x87 slot(required).
-- set policies to the new key. You may change --touch-policy, but we recommend to use ALWAYS. 
-The option --pin-policy ONCE is required by the tons. 
-You can read about policies [here](https://docs.yubico.com/yesdk/users-manual/application-piv/pin-touch-policies.html).
 
-## tons-interactive
-
-List all keystores in a tons.workdir
+List all keystores in a tons.workdir folder
 ```bash
 $ tons keystore list
 dev.keystore
@@ -49,17 +66,14 @@ test.keystore
 
 Create a new keystore
 ```bash
-$ tons keystore new myNewKeystore
-Password []: 
+tons keystore new myNewKeystore --password MY_SECRET
 ```
 
 Backup a keystore (password is used to export private keys)
 ```bash
-$ tons keystore backup myNewKeystore ./myNewKeystore.backup
-Password []: 
+tons keystore backup myNewKeystore ./myNewKeystore.backup --password MY_SECRET
 ```
 
-## tons
 
 Restore a keystore (password is used for a new keystore)
 ```bash

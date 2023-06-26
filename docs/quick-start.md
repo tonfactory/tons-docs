@@ -5,65 +5,58 @@ sidebar_position: 2
 
 # Quick start
 
-Create .tons folder in the current directory
+## tons-interactive
+
+1. Create new keystore (**0:00**) <br />
+2. Import existing wallet from mnemonics (**0:21**) <br />
+3. Add whitelist contact (**0:58**) <br /> 
+4. Transfer TON coins (**1:24**)
+
+
+<video controls width="100%" height="auto">
+  <source src="http://localhost:3000/tons-docs/vid/tons-interactive-quick-start.mov" type="video/mp4" />
+</video>
+
+## tons
+Create .tons folder in the current directory, otherwise it will use global directory (see [Config](/config) for more details)
 
 ```bash
-$ tons init
+tons init
 ```
 
-Set TON network
-
+Create a keystore
 ```bash
-$ tons config --network testnet
+tons keystore new myFirstKeystore --password MY_SECRET
 ```
 
-Create a keystore and set it as a current keystore
-
+Set it as a current keystore
 ```bash
-$ tons keystore new myFirstKeystore
-Password []:
-
-$ tons config tons.keystore_name myFirstKeystore
+tons config tons.keystore_name myFirstKeystore
 ```
 
-Create a wallet
-
+Import existing wallet from mnemonics (you can find your wallet version in you application settings. Usually it is v4r2)
 ```bash
-$ tons wallet create pocketMoney --save-to-whitelist myPocketMoney
+tons wallet import-from-mnemonics pocketMoney v4r2 0 "YOUR MNEMONIC WORDS HERE" --save-to-whitelist myPocketMoney
+```
+
+You can check that it has been create by the list command
+```bash
+tons wallet list
+```
+```bash
+| Name        | Version | WC |                     Address                      | Comment | State  | Balance |
+|:------------|:-------:|:--:|:------------------------------------------------:|:--------|:------:|--------:|
+| pocketMoney |   v3r2  | 0  | EQCHt-689LLEeFw2hkOT8ZNE8dmuMJeTcnISScGujIk-Sx2W | None    | Active |     1.0 |
+| Total       |         |    |                                                  |         |        |     1.0 |
 ```
 
 Add a whitelist contact
-
 ```
-$ tons whitelist add myBestFriend EQBP5aEPlmFNr4eS3DJw2ydC4X_hOumwZoqCcJgHVSQHjZWW
+tons whitelist add myBestFriend EQAqJuYmOYI_0C23atgYhQOcL4IHznWbCwUY0u4KOU3yRVEm
 ```
 
 Transfer coins from the wallet to the contact
 
 ```
-tons wallet transfer pocketMoney myBestFriend 10 --message "Happy birthday!"
-```
-
-To get all available subcommands and flags run a command with a '-h' flag
-
-```
-$ tons -h
-Usage: tons [OPTIONS] COMMAND [ARGS]...
-
-Options:
-  --version      Show the version and exit.
-  -c, --config   Use specific config.yaml file
-  -h, --help     Show this message and exit.
-
-Commands:
-  config     Control config parameters (check README.md for all fields info)
-  contract   Operate with contracts
-  dev        Development tools
-  init       Initialize .tons workdir in a current directory
-  keystore   Operate with keystores
-  wallet     Operate with wallets
-  whitelist  Operate with whitelist contacts
-
-$ tons wallet -h
-...
+tons wallet transfer pocketMoney myBestFriend 0.1 --message "Happy birthday!" --wait
 ```
