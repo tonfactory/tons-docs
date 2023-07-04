@@ -3,6 +3,10 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+.navbar__logo img {
+  height: 140%;
+  margin-top: -15%;
+}
 
 /* You can override the default Infima variables here. */
 :root {

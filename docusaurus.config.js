@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'TONS documentation',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/tons.ico',
 
     // Set the production url of your site here
     url: 'https://your-docusaurus-test-site.com',
@@ -66,7 +66,7 @@ const config = {
                 title: 'tons',
                 logo: {
                     alt: 'tons',
-                    src: 'img/ton_symbol.svg'
+                    src: 'img/tons_symbol.svg',
                 },
                 items: [
                     {
