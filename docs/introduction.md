@@ -35,14 +35,28 @@ Read more about architecture entities: [Config](/config), [Keystore](/keystore),
 
 *tons-interactive* is a convenient interface to control your assets through terminal.
 
-![tons-interactive](/gif/tons-interactive-introduction.gif)
+```bash
+$ tons-interactive
+[✓] Pick command: Keystores
+[✓] Pick command: Open keystore
+[✓] Choose keystore to use: 🔒 personal.keystore
+[?] Pick command [personal.keystore]: List wallets
+ > List wallets
+   Transfer
+   Advanced Transfer
+   Whitelist
+   Tonconnect v2
+   DNS
+   Jetton
+   ...
+```
 
 
 ### tons
 
 *tons* is a batch mode interface that allows you to write automatic scripts.
 
-To get all available subcommands and flags run a command with a '-h' flag
+To get all available subcommands and flags run a command with an '-h' flag
 ```bash
 $ tons -h
 Usage: tons [OPTIONS] COMMAND [ARGS]...

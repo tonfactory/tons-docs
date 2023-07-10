@@ -63,7 +63,7 @@ const config = {
                 indexName: 'tons'
             },
             navbar: {
-                title: 'tons',
+                title: 'Tons',
                 logo: {
                     alt: 'tons',
                     src: 'img/tons_symbol.svg',

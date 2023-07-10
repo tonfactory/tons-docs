@@ -30,6 +30,7 @@ Use pip (python package manager) to install it
 $ mkdir ~/my-ton-workdir/ && cd ~/my-ton-workdir/
 $ python3 -m venv venv
 $ source venv/bin/activate
+$ python3 -m pip install --upgrade pip
 $ pip install tons
 $ tons-interactive
 [?] Pick command: Keystores
