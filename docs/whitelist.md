@@ -14,12 +14,9 @@ There are two types of whitelist:
 
 ## tons-interactive
 
-1. Create new contact in global whitelist (**0:00**) <br />
-2. Get contact extra information (**0:17**) <br />
-3. Edit contact (**0:23**) <br /> 
-4. Delete contact (**0:37**)
-5. Move contact from global whitelist to local whitelist (**0:49**)
-6. Go to local whitelist and interact with it using the same whitelist menu (**1:14**)
+1. **Create new** contacts in the global whitelist (**0:00**) <br />
+2. **Move** contact (**1:08**) <br />
+3. Difference between **wallets** / **local contacts** / **global contacts** in the **Transfer** command (**1:48**)
 
 
 <video controls width="100%" height="auto">

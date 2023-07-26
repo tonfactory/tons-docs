@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Jetton
+# Jetton (soon)
 
 **tons** supports TON [Jetton standard](https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md).
 User can transfer your jettons and get info about all your assets in the most convenient way.

@@ -9,8 +9,8 @@ sidebar_position: 2
 
 1. Create new keystore (**0:00**) <br />
 2. Import existing wallet from mnemonics (**0:21**) <br />
-3. Add whitelist contact (**0:58**) <br /> 
-4. Transfer TON coins (**1:24**)
+3. Add whitelist contact (**1:01**) <br /> 
+4. Transfer TON coins (**1:30**)
 
 
 <video controls width="100%" height="auto">

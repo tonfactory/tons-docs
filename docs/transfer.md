@@ -8,7 +8,8 @@ To transfer TON coins from a wallet to the whitelist contact use transfer comman
 
 ## tons-interactive
 
-1. Transfer TON coins (**0:00**)
+1. **Transfer** TON coins with unencrypted message (**0:00**)
+2. **Advanced transfer** TON coins with encrypted message (**1:07**)
 
 <video controls width="100%" height="auto">
   <source src="https://tonfactory.github.io/tons-docs/vid/tons-interactive-transfer.mov" type="video/mp4" />
@@ -27,10 +28,13 @@ All parameters
 ```bash
 tons wallet transfer myMain myFriend 10 \
         --message "Happy Birthday!" \
+        --encrypt-message n \
         --wait \
         --bounceable n \
         --pay-gas-separately y \
         --ignore-errors n \
         --destroy-if-zero n \
-        --transfer-all n
+        --transfer-all n \
+        --body ./filepath/body.boc \ 
+        --state-init ./filepath/state_init.boc
 ```

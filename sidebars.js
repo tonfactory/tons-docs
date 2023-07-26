@@ -77,12 +77,12 @@ const sidebars = {
         },
         {
             type: 'doc',
-            label: 'Jetton',
+            label: 'Jetton (soon)',
             id: 'jetton',
         },
         {
             type: 'doc',
-            label: 'Tonconnect',
+            label: 'Tonconnect (soon)',
             id: 'tonconnect',
         },
         {

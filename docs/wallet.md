@@ -8,10 +8,10 @@ Wallet entity is a record in a keystore file that has all required information t
 
 ## tons-interactive
 
-1. Create new wallet (**0:00**) <br />
-2. Reveal wallet mnemonics (**0:27**) <br />
-3. Import wallet using mnemonics (**0:39**) <br /> 
-4. Keystore support same CRUD (create, read, update, delete) operations as whitelists (**1:07**)
+1. **Import wallet** from tonkeeper by mnemonics (**0:00**) <br />
+2. **Create batch** of wallets by prefix (**0:32**) <br />
+3. **Create batch** of wallets by pattern (**1:05**) <br /> 
+4. **Get verbose information** of a wallet (**1:50**)
 
 
 <video controls width="100%" height="auto">

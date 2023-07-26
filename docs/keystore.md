@@ -24,10 +24,10 @@ Public information are stored unencrypted (e.g. wallet address).
 ### tons-interactive
 
 
-1. Create new keystore (**0:00**) <br />
-2. Open keystore (**0:13**) <br />
-3. Backup keystore (**0:18**) <br /> 
-4. Restore keystore (**0:44**)
+1. **Open** keystore (**0:00**) <br />
+2. **Create** keystore (**0:16**) <br />
+3. **Backup** keystore (**0:42**) <br /> 
+4. **Restore** keystore (**1:23**)
 
 
 <video controls width="100%" height="auto">
