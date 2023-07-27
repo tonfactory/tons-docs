@@ -9,9 +9,9 @@ User can refresh your ownership and get info about all your records in the most 
 
 ## tons-interactive
 
-1. List all DNS records (**0:00**)
-2. Refresh a DNS record ownership (**0:17**)
-3. Refresh all records expiring DNS in N month (**0:52**) 
+1. **List** all DNS records (**0:00**)
+2. **Refresh a DNS record** ownership (**0:19**)
+3. **Set DNS expiration threshold** and **Refresh all** records expiring DNS in N month (**0:57**) 
 
 <video controls width="100%" height="auto">
   <source src="https://tonfactory.github.io/tons-docs/vid/tons-interactive-dns.mov" type="video/mp4" />

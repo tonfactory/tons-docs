@@ -18,7 +18,7 @@ sidebar_position: 2
 </video>
 
 ## tons
-Create .tons folder in the current directory, otherwise it will use global directory (see [Config](/config) for more details)
+[OPTIONAL] Create .tons folder in the current directory, otherwise it will use global directory (see [Config](/config) for more details)
 
 ```bash
 tons init
