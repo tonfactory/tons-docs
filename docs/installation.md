@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Installation
 
-## Non-developers
+## Download and Installation
 
 The simplest way to install **tons** is to go to the [releases page](https://github.com/tonfactory/tons-releases/releases) 
 and download the latest version. 
@@ -21,7 +21,7 @@ You will see the main menu
 ```
 
 
-## Developers
+## For Developers
 
 **tons** is a python package. All UIs are included in the same package. 
 
