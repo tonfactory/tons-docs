@@ -20,6 +20,13 @@ You will see the main menu
    Exit
 ```
 
+## Obtain API keys
+
+Go to the telegram bot: [@tontech_dapp_bot](https://t.me/tontech_dapp_bot) 
+(or [@tontech_dapp_testnet_bot](https://t.me/tontech_dapp_testnet_bot) for testnet) 
+and get your API key.
+
+Copy and paste the key inside `Config > API key` menu.
 
 ## For Developers
 
