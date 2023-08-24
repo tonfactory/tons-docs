@@ -129,4 +129,4 @@ Create new yubikey keystore
 tons keystore new myNewYubiKeystore --keystore-type yubikey --pin MY_SECRET
 ```
 
-Other commands are the same as for simple password yubikey. But instead of --password you should use --pin option.
+Other commands are the same as for simple password keystore. But instead of --password you should use --pin option.
