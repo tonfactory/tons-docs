@@ -46,3 +46,14 @@ $ tons-interactive
    Config
    Exit
 ```
+
+
+## Update
+
+
+If you use tons-interactive executable, just download newer version from the [releases page](https://github.com/tonfactory/tons-releases/releases) and replace current one.
+
+For developers, to update tons with pip, run the following command
+```bash
+$ pip install -U tons 
+```

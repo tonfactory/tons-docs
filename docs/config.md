@@ -13,6 +13,15 @@ application.
   <source src="https://tonfactory.github.io/tons-docs/vid/tons-interactive-config.mov" type="video/mp4" />
 </video>
 
+#### YubiKey
+
+To set up your YubiKey device go to **Config** > **Yubikey** menu and follow the instructions.
+
+<video controls width="100%" height="auto">
+  <source src="https://tonfactory.github.io/tons-docs/vid/tons-interactive-config-yubikey.mov" type="video/mp4" />
+</video>
+
+
 ## tons
 
 Every time **tons** reads settings in the way where a next config alters previous one
@@ -89,3 +98,16 @@ Get value of a parameter
 $ tons config tons.keystore_name
 dev.keystore
 ```
+
+#### YubiKey
+
+The best way to set up your device is by using tons-interactive > **Config** > **YubiKey**.
+
+But you can also run [ykman](https://docs.yubico.com/software/yubikey/tools/ykman/webdocs.pdf) package.
+
+For example, to generate a private key in the required slot run:
+```bash
+$ ykman piv keys generate 0x87 - -m ${YOUR_MANAGEMENT_KEY} -P ${YOUR_PIN} --pin-policy ONCE --touch-policy ALWAYS -a RSA2048
+```
+
+_IMPORTANT: slot id 0x87, pin-policy ONCE and key type RSA2048 are required._
