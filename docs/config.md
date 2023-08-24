@@ -27,7 +27,7 @@ To set up your YubiKey device go to **Config** > **Yubikey** menu and follow the
 Every time **tons** reads settings in the way where a next config alters previous one
 
 1. *global*: `~/.config/tons/`
-2. *local*: `./..N/.tons/` (where N {0, inf} any number of subdirectories)
+2. *local*: `./.tons/`
    *Note: to init tons locally run 'tons init' command*
 3. *env*: `export TONS_CONFIG_PATH=~/your/own/path/.tons/`
 
