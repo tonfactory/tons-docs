@@ -15,7 +15,10 @@ application.
 
 #### YubiKey
 
-To set up your YubiKey device go to **Config** > **Yubikey** menu and follow the instructions.
+To use your YubiKey device with yubikey type keystores, first set it up. 
+Go to **Config** > **Yubikey** menu and follow the instructions. 
+Then [create](/keystore#yubikey-type-keystore) (or restore from unencrypted backup) new yubikey type keystore.  
+
 
 <video controls width="100%" height="auto">
   <source src="https://tonfactory.github.io/tons-docs/vid/tons-interactive-config-yubikey.mov" type="video/mp4" />
