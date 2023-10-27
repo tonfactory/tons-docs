@@ -6,6 +6,21 @@ sidebar_position: 7
 Wallet entity is a record in a keystore file that has all required information to interact with a specific TON blockchain smart contract.  
 
 
+## tons-gui
+
+Create a wallet rather using "New wallet" button or "File" > "New wallet". 
+There are two options: "Single wallet" and "New multiple wallets"
+
+![tons-gui-create-new-keystore](/img/gui.png)
+
+Single wallet window allows you to create or import a wallet 
+
+![tons-gui-create-new-keystore](/img/gui.png)
+
+Multiple wallet window allows you to create a batch of wallets with the required names
+
+![tons-gui-create-new-keystore](/img/gui.png)
+
 ## tons-interactive
 
 1. **Import wallet** from tonkeeper by mnemonics (**0:00**) <br />

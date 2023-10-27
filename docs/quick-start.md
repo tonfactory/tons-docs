@@ -5,6 +5,28 @@ sidebar_position: 2
 
 # Quick start
 
+## tons-gui
+
+Press "File" > "New keystore..." to create a new keystore
+
+![tons-gui-create-new-keystore](/img/gui.png) 
+
+Doubleclick on the created keystore to open it and press "New wallet" button. 
+Type in your mnemonics in the mnemonics field. Press "Create" button.
+
+![tons-gui-create-new-keystore](/img/gui.png) 
+
+Press one of the following options to make a transfer
+
+[//]: # (Screen with the main window with arrows to the available buttons)
+![tons-gui-create-new-keystore](/img/gui.png)
+
+
+Select your imported wallet in the "From" field and your contact in the "To" field. Press "Transfer" button
+
+![tons-gui-create-new-keystore](/img/gui.png)
+
+
 ## tons-interactive
 
 1. Create new keystore (**0:00**) <br />

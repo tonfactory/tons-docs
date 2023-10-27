@@ -20,6 +20,13 @@ There are different versions of keystore which have different workflow:
 Password type keystores encrypt only sensitive part of your data (e.g. wallet secret key). 
 Public information are stored unencrypted (e.g. wallet address).
 
+### tons-gui
+
+Create / Backup / Export / Restore a keystore from the "File" tab in the menu bar
+
+![tons-gui-create-new-keystore](/img/gui.png) 
+
+
 ### tons-interactive
 
 
@@ -85,7 +92,7 @@ Password []:
 ```
 
 
-## Yubikey type keystore
+## Yubikey type keystore (Comming soon)
 
 YubiKey type keystores encrypt sensitive data, e.g. wallet secrets, with a private key that is stored on your device.
 Moreover, non-sensitive data, e.g. wallet address, is also encrypted by AES algorithm.

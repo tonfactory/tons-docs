@@ -6,6 +6,22 @@ sidebar_position: 8
 
 To transfer TON coins from a wallet to the whitelist contact use transfer command.
 
+## tons-gui
+
+Select the most convenient way to open the Transfer window
+
+![tons-gui-create-new-keystore](/img/gui.png)
+
+Specify sender wallet and recipient contact and press "Transfer"
+
+![tons-gui-create-new-keystore](/img/gui.png)
+
+You will be notified when transaction status is changed
+
+[//]: # (Arrow to the footer and notification center)
+![tons-gui-create-new-keystore](/img/gui.png)
+
+
 ## tons-interactive
 
 1. **Transfer** TON coins with unencrypted message (**0:00**)

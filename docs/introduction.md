@@ -31,6 +31,13 @@ Read more about architecture entities: [Config](/config), [Keystore](/keystore),
 ## User interfaces
 
 
+### tons-gui
+
+Graphic user interface version.
+
+![tons-gui](/img/gui.png) 
+
+
 ### tons-interactive
 
 *tons-interactive* is a convenient interface to control your assets through terminal.
@@ -87,10 +94,3 @@ $ tons wallet list -v
 | prod  |   v4r2  | 0  | EQCkNipaz2C3Md-tXVBcD3E4yv8EKqMzZ41QQtsM4IdFnKP5 | None    | Uninit |     0.0 |
 | Total |         |    |                                                  |         |        |    13.1 |
 ```
-
-### tons-gui
-
-Graphic user interface version is being developed.
-Here's a glimpse of the interface.
-
-![tons-gui](/img/gui.png) 

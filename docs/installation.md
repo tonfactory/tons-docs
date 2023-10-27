@@ -4,6 +4,14 @@ sidebar_position: 2
 
 # Installation
 
+## Obtain API keys
+
+Go to the telegram bot: [@tontech_dapp_bot](https://t.me/tontech_dapp_bot) 
+(or [@tontech_dapp_testnet_bot](https://t.me/tontech_dapp_testnet_bot) for testnet) 
+and get your API key.
+
+Later, copy and paste the key inside `Config > API key` menu.
+
 ## Download and Installation
 
 The simplest way to install **tons** is to go to the [releases page](https://github.com/tonfactory/tons-releases/releases) 
@@ -19,14 +27,6 @@ You will see the main menu
    Config
    Exit
 ```
-
-## Obtain API keys
-
-Go to the telegram bot: [@tontech_dapp_bot](https://t.me/tontech_dapp_bot) 
-(or [@tontech_dapp_testnet_bot](https://t.me/tontech_dapp_testnet_bot) for testnet) 
-and get your API key.
-
-Copy and paste the key inside `Config > API key` menu.
 
 ## For Developers
 

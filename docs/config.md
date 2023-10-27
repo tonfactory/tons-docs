@@ -4,6 +4,13 @@ sidebar_position: 4
 
 # Config
 
+## tons-gui
+
+Open "tons" > "Preferences" to modify settings 
+
+![tons-gui-create-new-keystore](/img/gui.png) 
+
+
 ## tons-interactive
 
 To set up your config using **tons-interactive** interface just go to **Config** menu from the main menu of the
