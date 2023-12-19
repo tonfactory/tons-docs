@@ -30,6 +30,11 @@ const sidebars = {
             id: 'quick-start',
         },
         {
+            type: 'doc',
+            label: 'Shortcuts',
+            id: 'shortcuts',
+        },
+        {
             'type': 'html',
             'value': '<hr/>',
         },
