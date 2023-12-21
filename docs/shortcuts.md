@@ -22,5 +22,6 @@ Esc + Esc    - exit current command or navigate back
 ```bash
 Cmd + F      - enter search mode (applicable in all windows with a search bar)
 Cmd + Y      - open the transactions history window
+Cmd + W      - close the window (supported by all windows, except main)
 Esc          - back to default mode
 ```
