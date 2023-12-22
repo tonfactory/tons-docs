@@ -11,15 +11,6 @@ and download the latest version.
 
 Download an installer that suits your OS, install the application and double click the executable file.
 
-You will see the main menu
-```bash
-[?] Pick command: Keystores
- > Keystores
-   Whitelist
-   Config
-   Exit
-```
-
 ## Obtain API keys
 
 Go to the telegram bot: [@tontech_dapp_bot](https://t.me/tontech_dapp_bot) 
@@ -30,7 +21,7 @@ Copy and paste the key inside `Config > API key` menu.
 
 ## For Developers
 
-**tons** is a python package. All UIs are included in the same package. 
+**tons** is a python package. All UIs (tons, tons-interactive, tons-gui) are included in the same package. 
 
 Use pip (python package manager) to install it
 ```bash
@@ -51,7 +42,7 @@ $ tons-interactive
 ## Update
 
 
-If you use tons-interactive executable, just download newer version from the [releases page](https://github.com/tonfactory/tons-releases/releases) and replace current one.
+If you use an executable file, just download newer version from the [releases page](https://github.com/tonfactory/tons-releases/releases) and replace current one.
 
 For developers, to update tons with pip, run the following command
 ```bash
