@@ -20,6 +20,11 @@ There are different versions of keystore which have different workflow:
 Password type keystores encrypt only sensitive part of your data (e.g. wallet secret key). 
 Public information are stored unencrypted (e.g. wallet address).
 
+
+### tons-gui
+
+![tons-gui](/img/gui/keystore.png) 
+
 ### tons-interactive
 
 

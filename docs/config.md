@@ -4,6 +4,10 @@ sidebar_position: 4
 
 # Config
 
+## tons-gui
+
+![tons-gui](/img/gui/preferences.png) 
+
 ## tons-interactive
 
 To set up your config using **tons-interactive** interface just go to **Config** menu from the main menu of the

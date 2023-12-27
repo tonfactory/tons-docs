@@ -12,6 +12,16 @@ There are two types of whitelist:
 - **Global whitelist** - contacts are stored in a global whitelist.json file and can be used from any keystore
 - **Local whitelist** - contacts are stored in a keystore file and can be used only in that keystore
 
+## tons-gui
+
+Create a contact
+
+![tons-gui](/img/gui/new_contact.png) 
+
+Later you can edit and see all contact's information 
+
+![tons-gui](/img/gui/contact_information.png) 
+
 ## tons-interactive
 
 1. **Create new** contacts in the global whitelist (**0:00**) <br />

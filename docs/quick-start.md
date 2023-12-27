@@ -5,6 +5,12 @@ sidebar_position: 2
 
 # Quick start
 
+## tons-gui
+
+<video controls width="100%" height="auto">
+  <source src="https://tonfactory.github.io/tons-docs/vid/tons-gui-quick-start.mov" type="video/mp4" />
+</video>
+
 ## tons-interactive
 
 1. Create new keystore (**0:00**) <br />

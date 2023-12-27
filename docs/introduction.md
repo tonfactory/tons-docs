@@ -10,9 +10,9 @@ and command-line interface to maintain any type of wallet on the TON network
 on desktops and servers. Works with Windows/Mac/Linux.
 
 **tons** has different UI versions, thanks to which, any user will find a suitable interface:
+- [tons-gui](#tons-gui)
 - [tons-interactive](#tons-interactive)
 - [tons](#tons)
-- [tons-gui](#tons-gui)
 
 
 **tons** uses specific filesystem architecture that is maintained by the application.
@@ -29,6 +29,12 @@ Read more about architecture entities: [Config](/config), [Keystore](/keystore),
 
 
 ## User interfaces
+
+### tons-gui
+
+The most convenient Graphic User Interface version to work with your assets.
+
+![tons-gui](/img/gui/introduction.png) 
 
 
 ### tons-interactive
@@ -87,10 +93,3 @@ $ tons wallet list -v
 | prod  |   v4r2  | 0  | EQCkNipaz2C3Md-tXVBcD3E4yv8EKqMzZ41QQtsM4IdFnKP5 | None    | Uninit |     0.0 |
 | Total |         |    |                                                  |         |        |    13.1 |
 ```
-
-### tons-gui
-
-Graphic user interface version is being developed.
-Here's a glimpse of the interface.
-
-![tons-gui](/img/gui.png) 

@@ -7,6 +7,12 @@ sidebar_position: 9
 **tons** supports TON [DNS standard](https://github.com/ton-blockchain/TEPs/blob/master/text/0081-dns-standard.md).
 User can refresh your ownership and get info about all your records in the most convenient way.
 
+## tons-gui
+
+Refresh all your DNS with one click! Press "Refresh all shown" and select required option.
+
+![tons-gui](/img/gui/dns_table.png) 
+
 ## tons-interactive
 
 1. **List** all DNS records (**0:00**)
